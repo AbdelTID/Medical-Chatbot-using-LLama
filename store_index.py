@@ -19,6 +19,6 @@ index_name = "medical-chatbot"
 
 extract_data = load_pdf("./data")
 text_chunks = text_split(extract_data)
-embeddings = download_hugging_face_embeddings()
-Pinecone(api_key=PINECONE_API_KEY)
-docsearch = PC.from_existing_index(index_name,embeddings)
+# embeddings = download_hugging_face_embeddings()
+# Pinecone(api_key=PINECONE_API_KEY)
+# docsearch = PC.from_existing_index(index_name,embeddings)
